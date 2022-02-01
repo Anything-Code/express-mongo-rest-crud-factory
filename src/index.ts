@@ -7,10 +7,10 @@ import crudFactory from './crudFactory';
 
 dotenv.config();
 
-export const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/change-this-name-to-your-db-name-idiot';
-export const mongoAppName = process.env.MONGO_APP_NAME || 'your-app-name';
-export const mongoUser = process.env.MONGO_USER || 'your-username';
-export const mongoPassword = process.env.MONGO_PASSWORD || 'your-password';
+export const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017';
+export const mongoAppName = process.env.MONGO_APP_NAME || 'mongo-api';
+export const mongoUser = process.env.MONGO_USER || 'root';
+export const mongoPassword = process.env.MONGO_PASSWORD || 'password';
 export const port = process.env.PORT || 4000;
 
 connectToMongo();
