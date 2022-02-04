@@ -1,0 +1,21 @@
+GET http://localhost:4000/api/registration
+
+
+####
+
+POST http://localhost:4000/api/registration
+Content-Type: application/json
+{
+    "firstname": "Sean",
+    "lastname": "Hahn",
+    "address" : "Berlin",
+    "email": "xyz@abc.com",
+    "password": "xyz",
+    "repassword": "xyz",
+    "phonenumber": 1234567
+
+}
+
+###
+
+DELETE http://localhost:4000/api/registration/
